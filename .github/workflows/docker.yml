@@ -30,4 +30,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: loumaris/hetzner_failover_check_and_switch-${{ github.run_id }}
+          tags: loumaris/hetzner_failover_check_and_switch:main-${{ github.run_id }}
